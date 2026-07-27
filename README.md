@@ -1,6 +1,6 @@
 # Wornpage
 
-**Svelte 5 component library + development toolkit.**
+**Component library + dev toolkit.** Components are Svelte 5 (with web component builds). Tools are framework-agnostic.
 Personal, paper-textured, deterministically tested.
 
 ---
