@@ -1,39 +1,22 @@
-# Wornpage
+# Wornpage community files
 
-**Component library + dev toolkit.** Components are Svelte 5 (with web component builds). Tools are framework-agnostic.
-Personal, paper-textured, deterministically tested.
+Shared community files for the Wornpage account. The portfolio overview and
+component catalog live in [`wornpage/wornpage`](https://github.com/wornpage/wornpage).
 
----
+## Start with Wornpage
 
-### Get started
+Wornpage builds interfaces and tools that keep people in control of
+agent-assisted work.
 
-```bash
-# Browse everything
-git clone https://github.com/wornpage/wornpage.git
-cd wornpage && bun install && bun test  # 60 tests
+| Part | Start here |
+| --- | --- |
+| Projects — the application | [Try the WebMCP Challenge edition](https://projects-webmcp-extension.pages.dev/webmcp-challenge) |
+| Components — the interface library | [Browse the catalog](https://wornpage.pages.dev) · [Setup guide](https://github.com/wornpage/wornpage/blob/main/docs/getting-started.md) |
+| WebMCP Conformance — the validation toolkit | [Source and checks](https://github.com/wornpage/webmcp-conformance) |
+| PR Machine — the delivery tool | [Install the beta controller](https://github.com/wornpage/projects-pr-machine#install) |
 
-# Use in your app
-bun add github:wornpage/sidebar
-bun add github:wornpage/cmdk
-```
+## Shared policy
 
-### Packages
-
-| Component | | | Tool | |
-|---|---|---|---|---|
-| [sidebar](https://github.com/wornpage/sidebar) | Collapsible nav | | [cli](https://github.com/wornpage/cli) | Scaffold + ship |
-| [cmdk](https://github.com/wornpage/cmdk) | Command palette | | [workflow](https://github.com/wornpage/workflow) | State machine |
-| [toast](https://github.com/wornpage/toast) | Notifications | | [sync](https://github.com/wornpage/sync) | Code sharing |
-| [theme](https://github.com/wornpage/theme) | 8-palette themes | | [undo](https://github.com/wornpage/undo) | Undo/redo |
-| [receipt](https://github.com/wornpage/receipt) | Action cards | | | |
-
-### Philosophy
-
-Every package is **one repo, one concern, zero surprises**.
-- Pure Svelte 5 (runes, snippets, $props)
-- Tested with bun
-- Themed via `--cockpit-*` CSS custom properties
-- Web component builds for framework-agnostic use
-- MIT licensed
-
-[Monorepo →](https://github.com/wornpage/wornpage)
+Read [SECURITY.md](SECURITY.md) to report a vulnerability privately. Use the
+[repository map](https://github.com/wornpage/wornpage/blob/main/docs/repository-map.md)
+to find the source and contribution location for each part of Wornpage.
