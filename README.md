@@ -11,7 +11,7 @@ agent-assisted work.
 | Part | Start here |
 | --- | --- |
 | Projects — the application | [Try the WebMCP Challenge edition](https://projects-webmcp-extension.pages.dev/webmcp-challenge) |
-| Components — the interface library | [Browse the catalog](https://wornpage.pages.dev) · [Setup guide](https://github.com/wornpage/wornpage/blob/main/docs/getting-started.md) |
+| Components — the interface library | [Browse the catalog](https://wornpage-components.pages.dev) · [Setup guide](https://github.com/wornpage/wornpage/blob/main/docs/getting-started.md) |
 | WebMCP Conformance — the validation toolkit | [Source and checks](https://github.com/wornpage/webmcp-conformance) |
 | PR Machine — the delivery tool | [Install the beta controller](https://github.com/wornpage/projects-pr-machine#install) |
 
